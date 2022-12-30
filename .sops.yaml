@@ -1,0 +1,10 @@
+creation_rules:
+    # By default allow following keys to encrypt/decrypt secrets
+    # Specific path can be configured as explained here https://github.com/mozilla/sops#using-sops-yaml-conf-to-select-kms-pgp-for-new-files
+    # !  The first regex that matches is selected
+    - path_regex: secrets.yaml
+      key_groups:
+        - pgp:
+            # - '56D8342434B84E2D1CCF53D96E9A025D52210D3D' # Olblak
+            - '149E8DB97FE134C2703A149AA902D944C78793B7' # Olblak
+
