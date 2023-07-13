@@ -10,8 +10,8 @@ releases:
     chart: updatecli/updatemonitor
     version: 0.2.0
     values:
-      - values.yaml
+      - ../values.d/updatemonitor.yaml
     secrets:
-      - secrets.yaml
+      - ../secrets.d/updatemonitor.yaml
     wait: true
 

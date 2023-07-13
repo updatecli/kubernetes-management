@@ -1,7 +1,20 @@
+#mongodb:
+#  image:
+#    # Due to https://github.com/bitnami/charts/issues/10255
+#    # We need to use mongodb 4 on norvos
+#    tag: 4.4.15
+
 ingress:
   enabled: true
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-production
   hosts:
     - host: updatemonitor.updatecli.io
+  tls:
+    - secretName: updatemonitor-tls
+      hosts:
+        - updatemonitor.updatecli.io
+
 config:
   server:
     readonly: true
