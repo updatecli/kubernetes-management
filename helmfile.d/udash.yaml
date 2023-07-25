@@ -14,9 +14,8 @@ releases:
     wait: true
   - name: udash
     namespace: udash
-    #chart: updatecli/udash
-    chart: /home/olblak/Projects/Updatecli/charts/charts/udash
-    # version: 0.1.1
+    chart: updatecli/udash
+    version: 0.2.0
     values:
       - ../values.d/udash/ingress.yaml
     secrets:
