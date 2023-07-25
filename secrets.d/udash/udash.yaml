@@ -5,8 +5,8 @@ secrets:
     auth:
         stringdata:
             mode: ENC[AES256_GCM,data:CTcsias=,iv:E/skmE5GEhVb6mbr0K52GqDJOSbVEJUNGiYwMZy5cew=,tag:j++gO+iSpVnI1O6jDrGtnw==,type:str]
-            clientid: ENC[AES256_GCM,data:+eeHAVoWC66G0/6hm7IppzEmOLc=,iv:l5kT5Z/S51Z6MCeDqtxaD8fxIquXyP+zT+NERaxzLYE=,tag:6Gdv4ssqAubpd36UzhE9ZQ==,type:str]
-            audience: ENC[AES256_GCM,data:X9DxS3EK2Ngo4ldVtU3tUw3dLdV5X66o,iv:w+0cu7yJ5d4yXt3C7xivfdRe2v4UKnXmWTKqaa2y7ic=,tag:mPvPlyeQZLB9D8zX67cyog==,type:str]
+            clientid: ENC[AES256_GCM,data:aPBAvY+CH4eZBG51rLMj59DDeHkA4Ti5xJExdl2HmM0=,iv:RvRE0cJwhbAnomVlUsNEUg9pBoWna9u6eliZBwgvhs8=,tag:qFI13pCKgom1jjCZB71U0w==,type:str]
+            audience: ENC[AES256_GCM,data:XjgjV88vPukwxPYUPz7NWYVgAroi3wRsMlPwAQ==,iv:/HBllZxdAShHwvpcQG+FeViYbTEOYW2bQje2Uomakrs=,tag:IsU3f/2enriQFSpE+TMhfA==,type:str]
             issuer: ENC[AES256_GCM,data:0QevfBfQgj/fYMAExNAqyJq2Yt9Z/g==,iv:0nYINzdhaAol/G24SjxgDxBr6R1Gg1Y5IpjDfJYVpbg=,tag:G8iT+P9ikruu9HDPn7eNGw==,type:str]
 sops:
     kms: []
@@ -14,8 +14,8 @@ sops:
     azure_kv: []
     hc_vault: []
     age: []
-    lastmodified: "2023-07-15T20:51:50Z"
-    mac: ENC[AES256_GCM,data:T6tdL2z/Up3H5UCOG5MMH5NREbHn9ddcRQ5Pv9KD/J4Ks7YFxvVr41dbdJ+ufsnuZAQCJKi3muUbKtGvxHaGgZKnPeCkt+DBbKqeqEYVro6ia8XA38aqaXh5adFO7VehHVMDy408hEGD3bHoJBsv7/r4BkrfJ8nswDXM7+eRC8E=,iv:Jr2e2sNBMFxcYS8lNmebIpym1tjjrycrZQ2NC6qs578=,tag:wjIB9Kzz/N0XmcI8MglSag==,type:str]
+    lastmodified: "2023-07-22T19:00:18Z"
+    mac: ENC[AES256_GCM,data:CD8nobzIy6mfD2cu3vQpXa5Zn6jeoRGxsh22lNBCVpm+2IMBj7SyUJMDHSf5G3lAm4Un7bvqNyIKK6b750CWjG42nBuc8lqr1KQ/fCGbvku8Bv+5CktcRwEKIyOJfovXjpKY2J+yF/5gT7kb8Hg5F8c/f4EZDY9kNrjAQBBMZsw=,iv:RurAUZs9d99ICjvaXjz4dy4VNciZUhy5yMKRUmg455k=,tag:A2jBMYjL+Q3GFJoXIpcXSQ==,type:str]
     pgp:
         - created_at: "2023-07-13T16:21:50Z"
           enc: |

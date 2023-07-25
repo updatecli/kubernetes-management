@@ -3,9 +3,9 @@ ingress:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-production
   hosts:
-    - host: udash.updatecli.io
+    - host: app.updatecli.io
   tls:
     - secretName: udash-tls
       hosts:
-        - updatemonitor.updatecli.io
+        - app.updatecli.io
 
