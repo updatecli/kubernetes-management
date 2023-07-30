@@ -8,17 +8,16 @@ releases:
   - name: postgresql
     namespace: udash
     chart: bitnami/postgresql
-    version: 12.6.5
+    version: 12.7.1
     secrets:
       - ../secrets.d/udash/postgresql.yaml
     wait: true
   - name: udash
     namespace: udash
     chart: updatecli/udash
-    version: 0.2.0
+    version: 0.3.0
     values:
       - ../values.d/udash/ingress.yaml
     secrets:
       - ../secrets.d/udash/udash.yaml
     wait: true
-
