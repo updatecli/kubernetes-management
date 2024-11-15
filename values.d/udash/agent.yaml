@@ -1,0 +1,55 @@
+defaultComposeFile: |
+  policies:
+    - name: Update Updatecli policies
+      policy: ghcr.io/updatecli/policies/autodiscovery/all:0.7.0
+      values:
+        - /etc/updatecli/scm.yaml
+
+defaultSchedule: "*/30 * * * *"
+
+agents:
+  "updatecli":
+    valuesFiles:
+      scm.yaml: |
+        scm:
+          enabled: true
+          owner: updatecli
+          repository: updatecli
+          branch: main
+
+  "updatecli-action":
+    valuesFiles:
+      scm.yaml: |
+        scm:
+          enabled: true
+          owner: updatecli
+          repository: updatecli-action
+          branch: main
+
+  "updatecli-website":
+    valuesFiles:
+      scm.yaml: |
+        scm:
+          enabled: true
+          owner: updatecli
+          repository: website
+          branch: main
+
+  "udash":
+    valuesFiles:
+      scm.yaml: |
+        scm:
+          enabled: true
+          owner: updatecli
+          repository: udash
+          branch: main
+
+  "udash-front":
+    valuesFiles:
+      scm.yaml: |
+        scm:
+          enabled: true
+          owner: updatecli
+          repository: udash-front
+          branch: main
+
