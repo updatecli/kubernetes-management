@@ -9,6 +9,6 @@ policies:
       - updatecli/values.d/scm.yaml
 
   - name: Update Helm charts
-    policy: ghcr.io/updatecli/policies/autodiscovery/helmfile:0.6.0
+    policy: ghcr.io/updatecli/policies/autodiscovery/helmfile:0.6.0@sha256:e7185e1c9dddc512f992c5efe256fcc86c8ef231cb0a69d47c24bdb7ee1b1894
     values:
       - updatecli/values.d/scm.yaml
