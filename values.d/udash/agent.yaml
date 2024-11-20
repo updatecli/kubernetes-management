@@ -24,7 +24,7 @@ agents:
           enabled: true
           owner: updatecli
           repository: updatecli-action
-          branch: main
+          branch: v2
 
   "updatecli-website":
     valuesFiles:
@@ -33,7 +33,7 @@ agents:
           enabled: true
           owner: updatecli
           repository: website
-          branch: main
+          branch: master
 
   "udash":
     valuesFiles:
