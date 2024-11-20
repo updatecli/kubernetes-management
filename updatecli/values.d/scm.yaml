@@ -4,6 +4,6 @@ scm:
   user: updatecli
   email: bot@updatecli.io
   owner: updatecli
-  repository: charts
+  repository: kubernetes-management
   username: "updatecli"
   branch: main
