@@ -8,7 +8,7 @@ releases:
   - name: postgresql
     namespace: udash
     chart: bitnami/postgresql
-    version: 16.4.16
+    version: 16.5.0
     secrets:
       - ../secrets.d/udash/postgresql.yaml
     wait: true
