@@ -15,7 +15,7 @@ releases:
   - name: udash
     namespace: udash
     chart: updatecli/udash
-    version: 0.15.0
+    version: 0.16.0
     values:
       - ../values.d/udash/ingress.yaml
     secrets:
@@ -25,7 +25,7 @@ releases:
   - name: udash-agent
     namespace: udash
     chart: updatecli/udash-agent
-    version: 0.10.0
+    version: 0.12.0
     values:
       - ../values.d/udash/agent.yaml
     secrets:
