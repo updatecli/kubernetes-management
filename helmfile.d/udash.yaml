@@ -8,14 +8,14 @@ releases:
   - name: postgresql
     namespace: udash
     chart: bitnami/postgresql
-    version: 16.7.24
+    version: 16.7.26
     secrets:
       - ../secrets.d/udash/postgresql.yaml
     wait: true
   - name: udash
     namespace: udash
     chart: updatecli/udash
-    version: 0.16.0
+    version: 0.18.0
     values:
       - ../values.d/udash/ingress.yaml
     secrets:
@@ -25,7 +25,7 @@ releases:
   - name: udash-agent
     namespace: udash
     chart: updatecli/udash-agent
-    version: 0.12.0
+    version: 0.13.0
     values:
       - ../values.d/udash/agent.yaml
     secrets:
