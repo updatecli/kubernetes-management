@@ -8,7 +8,7 @@ releases:
   - name: postgresql
     namespace: udash
     chart: bitnami/postgresql
-    version: 18.12.25
+    version: 18.12.27
     secrets:
       - ../secrets.d/udash/postgresql.yaml
     wait: true
